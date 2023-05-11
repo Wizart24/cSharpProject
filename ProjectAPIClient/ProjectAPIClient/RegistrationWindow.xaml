@@ -1,0 +1,23 @@
+﻿<Window x:Class="ProjectAPIClient.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectAPIClient"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="475" Width="400" Background="#FF132E32">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="76,24,0,0" TextWrapping="Wrap" Text="Registration" VerticalAlignment="Top" Foreground="#FFFFFEFE" FontFamily="Yu Gothic Light" FontSize="36" Width="314"/>
+        <TextBox x:Name="txtName" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="138,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblName" Content="Name:" HorizontalAlignment="Left" Margin="24,147,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <Label x:Name="lblPassword" Content="Password:" HorizontalAlignment="Left" Margin="24,184,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <PasswordBox x:Name="txtPassword" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="138,188,0,0" VerticalAlignment="Top" Width="191" Height="25" FontFamily="Yu Gothic Light" FontSize="10"/>
+        <TextBox x:Name="txtEmail" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="138,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblEmail" Content="Email:" HorizontalAlignment="Left" Margin="24,222,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBox x:Name="txtPhone" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="138,265,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="192" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblPhone" Content="Phone Number:" HorizontalAlignment="Left" Margin="24,261,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBox x:Name="txtAddress" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="139,306,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblAddress" Content="Address:" HorizontalAlignment="Left" Margin="24,302,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <Button x:Name="btnCreate" Content="Create" HorizontalAlignment="Left" Margin="182,383,0,0" VerticalAlignment="Top" Width="148" Height="32" Click="btnCreate_Click" Background="#FF132E32" BorderBrush="#FFFDFDFD" Foreground="#FFFDF9F9"/>
+    </Grid>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="ProjectAPIClient.AddGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectAPIClient"
+        mc:Ignorable="d"
+        Title="Add Game" Height="475" Width="400" Background="#FF132E32">
+    <Grid>
+        <TextBox x:Name="txtTitle" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="160,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblTitle" Content="Title:" HorizontalAlignment="Left" Margin="100,73,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBox x:Name="txtGenre" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="160,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblGenre" Content="Genre:" HorizontalAlignment="Left" Margin="90,122,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBox x:Name="txtYear" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="160,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblYear" Content="Realease Year:" HorizontalAlignment="Left" Margin="42,174,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBox x:Name="txtPublisher" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="159,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblPublisher" Content="Game Publisher:" HorizontalAlignment="Left" Margin="30,226,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBox x:Name="txtPrice" TextAlignment="Left" VerticalContentAlignment="Center" HorizontalAlignment="Left" Margin="159,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="189" Height="25" FontFamily="Yu Gothic Light" FontSize="14"/>
+        <Label x:Name="lblPrice" Content="Game Price:" HorizontalAlignment="Left" Margin="56,276,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <Label x:Name="lblStatus" Content="In Stock:" HorizontalAlignment="Left" Margin="77,324,0,0" VerticalAlignment="Top" FontSize="14" FontFamily="Yu Gothic Light" Foreground="#FFFDFCFC"/>
+        <TextBlock x:Name="txtTitl" HorizontalAlignment="Center" Margin="0,20,0,0" TextWrapping="Wrap" Text="Add Game" VerticalAlignment="Top" FontFamily="Yu Gothic Light" FontSize="24" Foreground="White"/>
+        <Button x:Name="btnAdd" Content="Add Game" HorizontalAlignment="Left" Margin="200,386,0,0" VerticalAlignment="Top" Width="148" Height="32" Click="btnAdd_Click" Background="#FF132E32" BorderBrush="#FFFDFDFD" Foreground="#FFFDF9F9"/>
+        <CheckBox x:Name="chStatus" HorizontalAlignment="Left" Margin="160,333,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
